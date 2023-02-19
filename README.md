@@ -55,3 +55,8 @@ Memory: 64109MiB
 * [inkscape convert svg to png](https://stackoverflow.com/questions/9853325/how-to-convert-a-svg-to-a-png-with-imagemagick)
 * [multi-threading bash](https://stackoverflow.com/questions/6511884/how-to-limit-number-of-threads-sub-processes-used-in-a-function-in-bash)
 * [GNU parallel tutorial](https://bash-prompt.net/guides/parallell-bash/)
+
+## TODO
+* Add a `sem` example (part of GNU parallel). [1](https://stackoverflow.com/a/8740582) [2](https://unix.stackexchange.com/a/216466)
+* Add a `wait -n` example. [1](https://linuxize.com/post/bash-wait/) [2](https://stackoverflow.com/questions/69233150/does-bash-wait-command-support-n-option)
+    * Note: We are using `wait` as implemented by the bash shell, thus its documentation shown with `help wait`. This is not to be confused with the `wait` binary, whose documentation is shown with `man wait`.
